@@ -1,15 +1,12 @@
-/* Deixar o fundo do site preto */
 body {
   background-color: #000000;
-  color: #ffffff; /* cor do texto em branco para ficar legível */
+  color: #ffffff;
 }
 
-/* Ajustar a cor dos links */
 a {
   color: #1e90ff;
 }
 
-/* Ajustar a cor dos títulos */
 h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
 }
