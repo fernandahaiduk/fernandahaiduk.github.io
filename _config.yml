@@ -20,4 +20,5 @@ markdown: kramdown
 # Incluir pastas adicionais
 include:
   - _includes
+  - _layouts
   - assets/css
