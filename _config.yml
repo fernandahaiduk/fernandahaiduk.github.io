@@ -3,7 +3,7 @@ email: "seu-email@exemplo.com"
 description: "Especialista Educacional, Desenvolvimento de Conteúdo e Avaliação | Pesquisa em Ensino de Física e Análise de Didáticos | Professora de Física | Análise de Dados Educacionais (Power BI & R) | Desenvolvimento em HTML Simples"
 baseurl: "" 
 url: "https://fernandahaiduk.github.io"
-theme: "agency-jekyll-theme"
+theme: minima
 
 # Social
 github_username: fernandahaiduk
