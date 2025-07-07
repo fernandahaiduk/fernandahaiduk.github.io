@@ -16,3 +16,13 @@ google_analytics: ""
 
 # Build settings
 markdown: kramdown
+
+sass:
+  style: compressed
+
+include:
+  - assets/css
+  minima:
+  skin: classic
+  social_links: []
+
