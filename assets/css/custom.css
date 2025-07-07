@@ -1,0 +1,19 @@
+/* Mudar cor de fundo do body */
+body {
+  background-color: #000000;
+}
+
+/* Mudar cor dos títulos */
+h1, h2, h3, h4, h5, h6 {
+  color: #DCDCDC;
+}
+
+/* Mudar cor dos links */
+a {
+  color: #191970;
+}
+
+/* Mudar cor do texto geral */
+body, p {
+  color: #FFFAFA;
+}
