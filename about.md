@@ -3,8 +3,6 @@ layout: page
 title: Sobre mim
 permalink: /about/
 ---
-# Sobre mim
-
 Olá! Sou Fernanda Haiduk, Especialista Educacional e Pesquisadora em Ensino de Física.
 
 Sou Especialista Educacional, com ampla experiência em desenvolvimento de conteúdo, avaliação e formação de professores. Sou licenciada em Física pela UFRGS e atualmente curso mestrado em Ensino de Física na mesma instituição, o que fortalece meu olhar crítico, científico e inovador sobre práticas educacionais.
