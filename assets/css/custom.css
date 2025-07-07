@@ -1,12 +1,40 @@
+/* Fundo geral e cor do texto padrão */
 body {
   background-color: #000000;
   color: #ffffff;
 }
 
+/* Links */
 a {
   color: #DCDCDC;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #FFA500;
+/* Título h1 */
+h1 {
+  color: #FFA500; /* laranja */
+}
+
+/* Título h2 */
+h2 {
+  color: #1E90FF; /* azul claro */
+}
+
+/* Título h3 */
+h3 {
+  color: #32CD32; /* verde limão */
+}
+
+/* Título h4 */
+h4 {
+  color: #FF69B4; /* rosa vibrante */
+}
+
+/* Título h5 */
+h5 {
+  color: #9370DB; /* roxo médio */
+}
+
+/* Título h6 */
+h6 {
+  color: #00CED1; /* azul turquesa */
 }
