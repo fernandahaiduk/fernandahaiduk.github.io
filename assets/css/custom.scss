@@ -1,0 +1,10 @@
+---
+# Front matter necessário para o Jekyll compilar SCSS
+---
+
+@import "alembic"; /* mantém estilos originais do tema */
+
+/* Forçar todas as fontes para Red Hat Display */
+body, h1, h2, h3, h4, h5, h6, p, a, nav, footer {
+  font-family: 'Red Hat Display', sans-serif !important;
+}
