@@ -1,6 +1,6 @@
 ---
 title: Welcome to my website
-feature_image: "/assets/img/imgcapa.png"
+feature_image: "/assets/img/header.png"
 feature_text: |
   ## Fernanda Haiduk
 ---
