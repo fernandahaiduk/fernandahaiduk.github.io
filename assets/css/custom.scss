@@ -1,10 +1,22 @@
 ---
-# Front matter necessário para o Jekyll compilar SCSS
+# front matter obrigatório para o Jekyll compilar SCSS
 ---
 
-@import "alembic"; /* mantém estilos originais do tema */
+/* 1) Carrega a fonte direto do Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap");
 
-/* Forçar todas as fontes para Red Hat Display */
-body, h1, h2, h3, h4, h5, h6, p, a, nav, footer {
-  font-family: 'Red Hat Display', sans-serif !important;
+/* 2) Importa o CSS do tema (deixa o tema como base) */
+@import "alembic";
+
+/* 3) Força a fonte Red Hat Display em TODO o site */
+:root {
+  --font-sans: "Red Hat Display", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+html, body,
+h1, h2, h3, h4, h5, h6,
+p, a, li, nav, footer, header,
+button, input, textarea, select,
+figcaption, blockquote, small, strong, em {
+  font-family: var(--font-sans) !important;
 }
