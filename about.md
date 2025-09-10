@@ -100,6 +100,24 @@ permalink: /curriculo/
     <p><strong>Português</strong> — nativo</p>
     <p><strong>Inglês</strong> — avançado</p>
   </div>
+
+  <h2 id="formacao">Formação Acadêmica</h2>
+...conteúdo...
+
+<h2 id="experiencia">Experiência</h2>
+...conteúdo...
+
+<h2 id="producao">Produção</h2>
+...conteúdo...
+
+<h2 id="projetos">Projetos</h2>
+...conteúdo...
+
+<h2 id="competencias">Competências</h2>
+...conteúdo...
+
+<h2 id="idiomas">Idiomas</h2>
+...conteúdo...
   <div>
     <p><strong>Espanhol</strong> — intermediário</p>
   </div>
