@@ -1,0 +1,22 @@
+header:
+  - title: "Início"
+    url: /
+  - title: "Currículo"
+    url: /curriculo/
+    children:
+      - title: "Formação"
+        url: /curriculo/#formacao
+      - title: "Experiência"
+        url: /curriculo/#experiencia
+      - title: "Produção"
+        url: /curriculo/#producao
+      - title: "Projetos"
+        url: /curriculo/#projetos
+      - title: "Competências"
+        url: /curriculo/#competencias
+      - title: "Idiomas"
+        url: /curriculo/#idiomas
+  - title: "Projetos"
+    url: /projetos/
+  - title: "Publicações"
+    url: /publicacoes/
