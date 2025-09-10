@@ -133,3 +133,55 @@ a:hover{ color:var(--cor-hover) !important; text-decoration:underline; }
   .site-nav .submenu { position: static; box-shadow: none; border: 0; background: transparent; }
   .site-nav .submenu-item a { padding-left: 0; }
 }
+
+/* ===== Layout do Currículo ===== */
+.cv-layout {
+  display: flex;
+  gap: 2rem;
+}
+
+/* Sidebar fixa */
+.cv-sidebar {
+  position: sticky;
+  top: 4rem; /* distância do topo do navegador */
+  align-self: flex-start;
+  width: 220px;
+  background: #070001; /* usa sua cor de fundo */
+  padding: 1rem;
+  border-radius: 12px;
+  height: fit-content;
+}
+
+.cv-nav {
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+}
+
+.cv-nav a {
+  color: var(--cor-texto) !important;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.cv-nav a:hover {
+  color: var(--cor-hover) !important;
+  text-decoration: underline;
+}
+
+/* Conteúdo principal */
+.cv-content {
+  flex: 1;
+  max-width: 800px;
+}
+
+/* Mobile: sidebar vai para o topo */
+@media (max-width: 800px) {
+  .cv-layout {
+    flex-direction: column;
+  }
+  .cv-sidebar {
+    position: static;
+    width: 100%;
+  }
+}
