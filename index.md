@@ -3,7 +3,7 @@ title: "Fernanda Haiduk"
 feature_image: "/assets/img/header.png"
 feature_text: |
   <h2 style="font-family: 'Red Hat Display', sans-serif; font-weight:700; margin:0;">
-    Especialista Educacional e Mestranda em Ensino de Física
+
   </h2>
 ---
 
