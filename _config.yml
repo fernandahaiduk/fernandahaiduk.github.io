@@ -14,5 +14,5 @@ plugins:
 
 markdown: kramdown
 permalink: /:categories/:title/
-style: /assets/css/custom.css
+
 
