@@ -15,8 +15,8 @@ plugins:
 navigation_header:
   - title: "Inicial"
     url: /
-  - title: "Currículo"
-    url: /curriculo/
+  - title: "Resumo"
+    url: /resumo/
   - title: "Projetos"
     url: /projetos/
   - title: "Publicações"
