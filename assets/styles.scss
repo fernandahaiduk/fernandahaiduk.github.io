@@ -73,3 +73,63 @@ a:hover{ color:var(--cor-hover) !important; text-decoration:underline; }
 }
 .site-footer a{ color:var(--cor-link) !important; }
 .site-footer a:hover{ color:var(--cor-hover) !important; }
+
+/* ===== Dropdown ===== */
+.site-nav { position: relative; }
+
+.site-nav .menu {
+  list-style: none;
+  margin: 0; padding: 0;
+  display: flex; gap: 1rem; align-items: center;
+}
+
+.site-nav .menu-item { position: relative; }
+
+.site-nav .menu-item > a {
+  text-decoration: none;
+  /* herda suas cores já definidas antes */
+}
+
+.site-nav .menu-item.has-children > a::after {
+  content: " ▾";
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
+/* Submenu escondido por padrão */
+.site-nav .submenu {
+  display: none;
+  position: absolute;
+  top: 100%; left: 0;
+  min-width: 220px;
+  margin: 0; padding: 0.5rem 0;
+  list-style: none;
+  background: #000; /* fundo do dropdown */
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+  z-index: 999;
+}
+
+.site-nav .submenu-item a {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  text-decoration: none;
+  color: var(--cor-texto) !important;
+}
+
+.site-nav .submenu-item a:hover {
+  background: rgba(255,255,255,0.06);
+  color: var(--cor-hover) !important;
+}
+
+/* Mostrar ao passar o mouse */
+.site-nav .menu-item.has-children:hover > .submenu {
+  display: block;
+}
+
+/* Responsivo: empilhar no mobile se necessário */
+@media (max-width: 800px) {
+  .site-nav .menu { flex-wrap: wrap; gap: 0.5rem 1rem; }
+  .site-nav .submenu { position: static; box-shadow: none; border: 0; background: transparent; }
+  .site-nav .submenu-item a { padding-left: 0; }
+}
