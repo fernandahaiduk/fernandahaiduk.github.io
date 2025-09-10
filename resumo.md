@@ -24,7 +24,7 @@ permalink: /resumo/
 
  <h2 id="formacao">Formação</h2>
 
-<h3><strong>Mestrado Acadêmico em Ensino de Física (<a href="https://www.ufrgs.br/ppgenfis" target="_blank">PPGEnFis</a>)</strong></h3>
+<h3><strong>Mestrado Acadêmico em Ensino de Física (<a href="https://www.ufrgs.br/ppgenfis" target="_blank">PPGEnFís</a>)</strong></h3>
 <p><em>Universidade Federal do Rio Grande do Sul (UFRGS)</em><br/>
 03.2025 – <strong>atual</strong></p>
 
