@@ -36,19 +36,18 @@ h1,h2,h3,h4,h5,h6{ color:var(--cor-titulo) !important; font-weight:700; }
 a{ color:var(--cor-link) !important; }
 a:hover{ color:var(--cor-hover) !important; text-decoration:underline; }
 
-/* 6) Header / Navegação */
-.site-header, .site-nav{ background:var(--cor-fundo) !important; }
+/* 6) Header / Navegação (sem forçar bg, para não conflitar com o tema) */
 .site-nav a{ color:var(--cor-texto) !important; }
 .site-nav a:hover{ color:var(--cor-hover) !important; }
 
-/* 7) Faixa de destaque (feature) */
+/* 7) Faixa de destaque (feature) — mantém a imagem de capa */
 .feature{
-  background:var(--cor-titulo) !important;
-  color:var(--cor-texto) !important;
+  background: unset !important;          /* não sobrepor o background-image do tema */
+  color: var(--cor-texto) !important;
 }
 .feature h2, .feature p{ color:var(--cor-texto) !important; }
 
-/* 8) Conteúdo (evita blocos brancos) */
+/* 8) Conteúdo */
 .wrapper, .page, .post, .post__content, .home, .content{
   background:transparent !important;
   color:var(--cor-texto) !important;
