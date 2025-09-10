@@ -10,11 +10,12 @@
 
 /* 2) Paleta */
 :root{
-  --cor-fundo:#000000;   /* fundo escuro #070001 */
+  --cor-fundo:#000000;   /* fundo escuro */
   --cor-texto:#E9E0D1;   /* texto normal */
   --cor-link:#68462B;    /* link */
-  --cor-hover:#91A798;   /* hover */
+  --cor-hover:#91A798;   /* hover/realce */
   --cor-titulo:#33605A;  /* títulos/destaques */
+  --cor-borda:rgba(233,224,209,0.12); /* bordas sutis no tema escuro */
 }
 
 /* 3) Tipografia global */
@@ -35,153 +36,46 @@ html, body{
 h1,h2,h3,h4,h5,h6{ color:var(--cor-titulo) !important; font-weight:700; }
 a{ color:var(--cor-link) !important; }
 a:hover{ color:var(--cor-hover) !important; text-decoration:underline; }
+hr{ border:0; border-top:1px solid var(--cor-borda); }
 
-/* 6) Header / Navegação (sem forçar bg, para não conflitar com o tema) */
+/* 6) Header / Navegação */
 .site-nav a{ color:var(--cor-texto) !important; }
 .site-nav a:hover{ color:var(--cor-hover) !important; }
 
 /* 7) Faixa de destaque (feature) — força a imagem */
-.feature {
-  background-image: url("/assets/img/header2.png") !important; /* caminho da sua imagem */
-  background-size: cover !important;     /* cobre toda a área */
-  background-position: center !important;/* centraliza */
+.feature{
+  background-image: url("/assets/img/header2.png") !important;
+  background-size: cover !important;
+  background-position: center !important;
   background-repeat: no-repeat !important;
   color: var(--cor-texto) !important;
-  min-height: 300px;                     /* garante altura mínima */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  min-height: 300px;
+  display:flex; align-items:center; justify-content:center; text-align:center;
 }
-
-.feature h2,
-.feature p {
+.feature h2,.feature p{
   color: var(--cor-texto) !important;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.7); /* melhora contraste */
+  text-shadow: 1px 1px 3px rgba(0,0,0,.7);
 }
 
-/* 8) Conteúdo */
+/* 8) Conteúdo padrão */
 .wrapper, .page, .post, .post__content, .home, .content{
   background:transparent !important;
   color:var(--cor-texto) !important;
 }
+table{ border-color:var(--cor-borda) !important; }
+th, td{ border-color:var(--cor-borda) !important; }
 
 /* 9) Footer */
 .site-footer{
   background:var(--cor-fundo) !important;
   color:var(--cor-texto) !important;
+  border-top:1px solid var(--cor-borda);
 }
 .site-footer a{ color:var(--cor-link) !important; }
 .site-footer a:hover{ color:var(--cor-hover) !important; }
 
-/* ===== Dropdown ===== */
-.site-nav { position: relative; }
-
-.site-nav .menu {
-  list-style: none;
-  margin: 0; padding: 0;
-  display: flex; gap: 1rem; align-items: center;
-}
-
-.site-nav .menu-item { position: relative; }
-
-.site-nav .menu-item > a {
-  text-decoration: none;
-  /* herda suas cores já definidas antes */
-}
-
-.site-nav .menu-item.has-children > a::after {
-  content: " ▾";
-  font-size: 0.9em;
-  opacity: 0.8;
-}
-
-/* Submenu escondido por padrão */
-.site-nav .submenu {
-  display: none;
-  position: absolute;
-  top: 100%; left: 0;
-  min-width: 220px;
-  margin: 0; padding: 0.5rem 0;
-  list-style: none;
-  background: #000; /* fundo do dropdown */
-  border: 1px solid rgba(255,255,255,0.08);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.35);
-  z-index: 999;
-}
-
-.site-nav .submenu-item a {
-  display: block;
-  padding: 0.5rem 0.75rem;
-  text-decoration: none;
-  color: var(--cor-texto) !important;
-}
-
-.site-nav .submenu-item a:hover {
-  background: rgba(255,255,255,0.06);
-  color: var(--cor-hover) !important;
-}
-
-/* Mostrar ao passar o mouse */
-.site-nav .menu-item.has-children:hover > .submenu {
-  display: block;
-}
-
-/* Responsivo: empilhar no mobile se necessário */
-@media (max-width: 800px) {
-  .site-nav .menu { flex-wrap: wrap; gap: 0.5rem 1rem; }
-  .site-nav .submenu { position: static; box-shadow: none; border: 0; background: transparent; }
-  .site-nav .submenu-item a { padding-left: 0; }
-}
-
-/* ===== Layout do Currículo ===== */
-.cv-layout {
-  display: flex;
-  gap: 2rem;
-}
-
-/* Sidebar fixa */
-.cv-sidebar {
-  position: sticky;
-  top: 4rem; /* distância do topo do navegador */
-  align-self: flex-start;
-  width: 220px;
-  background: #070001; /* usa sua cor de fundo */
-  padding: 1rem;
-  border-radius: 12px;
-  height: fit-content;
-}
-
-.cv-nav {
-  display: flex;
-  flex-direction: column;
-  gap: .75rem;
-}
-
-.cv-nav a {
-  color: var(--cor-texto) !important;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.cv-nav a:hover {
-  color: var(--cor-hover) !important;
-  text-decoration: underline;
-}
-
-/* Conteúdo principal */
-.cv-content {
-  flex: 1;
-  max-width: 800px;
-}
-
-/* Mobile: sidebar vai para o topo */
-@media (max-width: 800px) {
-  .cv-layout {
-    flex-direction: column;
-  }
-  .cv-sidebar {
-    position: static;
-    width: 100%;
-  }
-}
+/* ===== (Opcional) Dropdown se você usar navegação com children ===== */
+.site-nav{ position:relative; }
+.site-nav .menu{ list-style:none; margin:0; padding:0; display:flex; gap:1rem; align-items:center; }
+.site-nav .menu-item{ position:relative; }
+.site-nav .menu-item > a{ text
