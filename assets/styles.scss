@@ -41,11 +41,21 @@ a:hover{ color:var(--cor-hover) !important; text-decoration:underline; }
 .site-nav a:hover{ color:var(--cor-hover) !important; }
 
 /* 7) Faixa de destaque (feature) — mantém a imagem de capa */
-.feature{
-  background: unset !important;          /* não sobrepor o background-image do tema */
+.feature {
+  background: none !important;            /* não tampa a imagem */
+  background-image: inherit !important;   /* herda a imagem definida pelo tema */
   color: var(--cor-texto) !important;
 }
-.feature h2, .feature p{ color:var(--cor-texto) !important; }
+
+.feature h2,
+.feature p {
+  color: var(--cor-texto) !important;
+}
+
+/* Opcional: overlay escuro por cima da foto para dar contraste ao texto */
+.feature::before {
+  background: rgba(7, 0, 1, 0.35) !important; /* 35% vinho transparente */
+}
 
 /* 8) Conteúdo */
 .wrapper, .page, .post, .post__content, .home, .content{
