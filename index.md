@@ -1,6 +1,6 @@
 ---
 title: "Fernanda Haiduk"
-feature_image: "/assets/img/header.png"
+feature_image: "/assets/img/header.jpg"
 feature_text: |
  
 ---
