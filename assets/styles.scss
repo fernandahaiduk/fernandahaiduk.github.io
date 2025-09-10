@@ -15,7 +15,7 @@
   --cor-link:#68462B;    /* link */
   --cor-hover:#91A798;   /* hover/realce */
   --cor-titulo:#33605A;  /* títulos/destaques */
-  --cor-borda:rgba(233,224,209,0.12); /* bordas sutis no tema escuro */
+  --cor-borda:rgba(233,224,209,0.12); /* bordas sutis */
 }
 
 /* 3) Tipografia global */
@@ -42,7 +42,7 @@ hr{ border:0; border-top:1px solid var(--cor-borda); }
 .site-nav a{ color:var(--cor-texto) !important; }
 .site-nav a:hover{ color:var(--cor-hover) !important; }
 
-/* 7) Faixa de destaque (feature) — força a imagem */
+/* 7) Faixa de destaque (feature) */
 .feature{
   background-image: url("/assets/img/header2.png") !important;
   background-size: cover !important;
@@ -74,8 +74,61 @@ th, td{ border-color:var(--cor-borda) !important; }
 .site-footer a{ color:var(--cor-link) !important; }
 .site-footer a:hover{ color:var(--cor-hover) !important; }
 
-/* ===== (Opcional) Dropdown se você usar navegação com children ===== */
+/* ===== Dropdown (opcional) ===== */
 .site-nav{ position:relative; }
 .site-nav .menu{ list-style:none; margin:0; padding:0; display:flex; gap:1rem; align-items:center; }
 .site-nav .menu-item{ position:relative; }
-.site-nav .menu-item > a{ text
+.site-nav .menu-item > a{ text-decoration:none; }
+.site-nav .menu-item.has-children > a::after{ content:" ▾"; font-size:.9em; opacity:.8; }
+.site-nav .submenu{
+  display:none; position:absolute; top:100%; left:0; min-width:220px;
+  margin:0; padding:.5rem 0; list-style:none;
+  background:var(--cor-fundo); border:1px solid var(--cor-borda);
+  box-shadow:0 8px 20px rgba(0,0,0,.35); z-index:999;
+}
+.site-nav .submenu-item a{
+  display:block; padding:.5rem .75rem; text-decoration:none; color:var(--cor-texto) !important;
+}
+.site-nav .submenu-item a:hover{ background:rgba(255,255,255,.06); color:var(--cor-hover) !important; }
+.site-nav .menu-item.has-children:hover > .submenu{ display:block; }
+@media (max-width:800px){
+  .site-nav .menu{ flex-wrap:wrap; gap:.5rem 1rem; }
+  .site-nav .submenu{ position:static; box-shadow:none; border:0; background:transparent; }
+  .site-nav .submenu-item a{ padding-left:0; }
+}
+
+/* ===== Layout do Currículo (sidebar fixa) ===== */
+.cv-layout{ display:flex; gap:2rem; }
+
+/* Sidebar integrada ao fundo */
+.cv-sidebar{
+  position:sticky; top:4rem; align-self:flex-start;
+  width:220px;
+  background: var(--cor-fundo); /* mesma cor do fundo */
+  padding:0; /* sem caixa */
+  border-radius:0;
+  height:fit-content;
+}
+
+.cv-nav{ display:flex; flex-direction:column; gap:.75rem; }
+.cv-nav a{
+  color:var(--cor-texto) !important;
+  text-decoration:none; font-weight:500;
+  padding:.25rem 0;
+}
+.cv-nav a:hover{ color:var(--cor-hover) !important; text-decoration:underline; }
+
+/* Conteúdo principal */
+.cv-content{ flex:1; max-width:800px; }
+
+/* Mobile: sidebar vai ao topo */
+@media (max-width:800px){
+  .cv-layout{ flex-direction:column; }
+  .cv-sidebar{ position:static; width:100%; }
+}
+
+/* Acessibilidade: foco visível */
+a:focus{
+  outline:2px dashed var(--cor-hover);
+  outline-offset:2px;
+}
