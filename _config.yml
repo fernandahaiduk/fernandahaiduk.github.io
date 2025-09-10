@@ -3,12 +3,32 @@ description: "Portfólio e materiais"
 author: "Fernanda Haiduk"
 
 url: "https://fernandahaiduk.github.io"
-baseurl: ""   # obrigatório para sites do tipo usuario.github.io
+baseurl: "" # obrigatório para sites do tipo usuario.github.io
 
-# USE isto (tema remoto) e NÃO use `theme: ...`
 remote_theme: daviddarnes/alembic
 
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
 
+# Navegação (cabeçalho)
+navigation_header:
+  - title: "Inicial"
+    url: /
+  - title: "Currículo"
+    url: /curriculo/
+  - title: "Projetos"
+    url: /projetos/
+  - title: "Publicações"
+    url: /publicacoes/
+  - title: "Contato"
+    url: /contato/
+
+# Navegação (rodapé)
+navigation_footer:
+  - title: "Inicial"
+    url: /
+
+# Úteis (opcional)
+markdown: kramdown
+permalink: /:categories/:title/
