@@ -132,3 +132,20 @@ a:focus{
   outline:2px dashed var(--cor-hover);
   outline-offset:2px;
 }
+
+/* ===== Ajuste global de tipografia (compacto 14px) ===== */
+html, body {
+  font-size: 14px; /* tamanho base reduzido */
+  line-height: 1.5;
+}
+
+h1 { font-size: 1.6rem; }  /* ~22px */
+h2 { font-size: 1.3rem; }  /* ~18px */
+h3 { font-size: 1.1rem; }  /* ~15px */
+h4, h5, h6 { font-size: 1rem; } /* ~14px */
+
+p, li, a, nav, footer, header,
+button, input, textarea, select,
+figcaption, blockquote, small, strong, em {
+  font-size: 0.9rem;  /* ~13px */
+}
