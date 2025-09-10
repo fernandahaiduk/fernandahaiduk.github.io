@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Currículo"
-permalink: /curriculo/
+title: "Resumo"
+permalink: /resumo/
 ---
 
 <div class="cv-layout">
