@@ -18,7 +18,7 @@
 
 <p><strong>Trabalho de Conclusão:</strong> Estudos de Cinemática: desafios metodológicos para uma sequência de Ensino por Investigação em uma escola pública de Porto Alegre.</p>
 
-<p><strong>Referenciais teóricos:</strong> Ausubel · Carvalho · Sasseron · Aprendizagem Significativa · Ensino por Investigação · Predizer-Observar-Explicar (POE) · Tecnologias Digitais da Informação e Comunicação (TDIC) · Cinemática · Simulações Computacionais (PhET) · Sequência Didática</p>
+<p><strong>Palavras-chave:</strong> Ausubel · Carvalho · Sasseron · Aprendizagem Significativa · Ensino por Investigação · Predizer-Observar-Explicar (POE) · Tecnologias Digitais da Informação e Comunicação (TDIC) · Cinemática · Simulações Computacionais (PhET) · Sequência Didática</p>
 
 <p><strong>Orientação:</strong> Prof. Dr. Dioni Paulo Pastorio</p>
 
