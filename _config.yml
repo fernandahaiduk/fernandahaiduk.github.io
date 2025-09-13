@@ -23,6 +23,12 @@ navigation_header:
     url: /publicacoes/
   - title: "Contato"
     url: /contato/
+  - title: "Ensino"
+    url: /ensino/
+  - title: "Materiais"
+    url: /materiais/
+  - title: "Eventos"
+    url: /eventos/
 
 # Navegação (rodapé)
 navigation_footer:
