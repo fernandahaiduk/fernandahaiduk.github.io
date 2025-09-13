@@ -17,6 +17,10 @@ navigation_header:
     url: /
   - title: "Resumo"
     url: /resumo/
+  - title: "Formação"
+    url: /formacao/
+  - title: "Experiência"
+    url: /experiencia/
   - title: "Projetos"
     url: /projetos/
   - title: "Publicações"
