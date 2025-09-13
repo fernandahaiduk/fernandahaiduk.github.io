@@ -29,8 +29,29 @@ permalink: /experiencia/
   <hr/>
 
   <h2 id="profissional">Experiência Profissional</h2>
+
+  <h3>Especialista Educacional</h3>
+
+<p style="text-align: justify;">
+  Atualmente, como Especialista Educacional, atuo em um nível estratégico, liderando a gestão de projetos institucionais e o desenvolvimento de soluções pedagógicas para o Ensino Médio. Sou responsável pela definição de diretrizes, curadoria e aprimoramento de conteúdos educacionais, assegurando alinhamento às políticas curriculares nacionais e às demandas dos principais exames seletivos. Hoje, conduzo não apenas a execução, mas também a formulação estratégica de iniciativas, integrando visão pedagógica e gestão educacional em escala institucional.
+</p>
+
+<p style="text-align: justify;">
+  Realizo análises avançadas de indicadores educacionais, elaborando relatórios gerenciais, <em>dashboards</em> analíticos e devolutivas executivas para gestores e mantenedora. Lidero a criação e a validação de instrumentos avaliativos, acompanho metas institucionais e coordeno processos de monitoramento contínuo da aprendizagem, garantindo consistência metodológica e relevância pedagógica.
+</p>
+
+<p style="text-align: justify;">
+  Também coordeno projetos e eventos educacionais de pequeno, médio e grande porte, articulando equipes multidisciplinares e diferentes unidades da rede e gerencio processos variados. Participo diretamente do fluxo de produção de materiais didáticos, coordenando equipes de professores autores e assegurando qualidade, prazos e padronização. 
+  Minha atuação atual combina liderança pedagógica, visão estratégica e gestão educacional, impactando de forma direta e mensurável os resultados institucionais.
+</p>
+
+<h3>Competências principais:</h3>
+<ul>
+  <li>Gestão educacional · Avaliação educacional · Análise de dados · Educação · Resolução de problemas · Habilidades analíticas · Competências interpessoais · Elaboração de documentos · Microsoft Power BI · Microsoft Power Query</li>
+</ul>
+
   <ul>
-  <h2>Assessora Pedagógica e Inteligência Educacional</h2>
+  <h3>Assessora Pedagógica e Inteligência Educacional</h3>
 
 <p style="text-align: justify;">
   Como Assessora Pedagógica e de Inteligência Educacional, ofereci suporte contínuo a diretores de unidade, coordenadores e professores autores na implementação de práticas pedagógicas consistentes para o Ensino Médio. Atuei orientando equipes na organização do trabalho pedagógico, assegurando a coerência entre currículo, materiais didáticos e objetivos institucionais, além de mediar processos voltados ao aprimoramento da qualidade do ensino.
@@ -50,25 +71,7 @@ permalink: /experiencia/
 </ul>
 
 
-<h2>Especialista Educacional</h2>
 
-<p style="text-align: justify;">
-  Atualmente, como Especialista Educacional, atuo em um nível estratégico, liderando a gestão de projetos institucionais e o desenvolvimento de soluções pedagógicas para o Ensino Médio. Sou responsável pela definição de diretrizes, curadoria e aprimoramento de conteúdos educacionais, assegurando alinhamento às políticas curriculares nacionais e às demandas dos principais exames seletivos. Hoje, conduzo não apenas a execução, mas também a formulação estratégica de iniciativas, integrando visão pedagógica e gestão educacional em escala institucional.
-</p>
-
-<p style="text-align: justify;">
-  Realizo análises avançadas de indicadores educacionais, elaborando relatórios gerenciais, <em>dashboards</em> analíticos e devolutivas executivas para gestores e mantenedora. Lidero a criação e a validação de instrumentos avaliativos, acompanho metas institucionais e coordeno processos de monitoramento contínuo da aprendizagem, garantindo consistência metodológica e relevância pedagógica.
-</p>
-
-<p style="text-align: justify;">
-  Também coordeno projetos e eventos educacionais de pequeno, médio e grande porte, articulando equipes multidisciplinares e diferentes unidades da rede e gerencio processos variados. Participo diretamente do fluxo de produção de materiais didáticos, coordenando equipes de professores autores e assegurando qualidade, prazos e padronização. 
-  Minha atuação atual combina liderança pedagógica, visão estratégica e gestão educacional, impactando de forma direta e mensurável os resultados institucionais.
-</p>
-
-<h3>Competências principais:</h3>
-<ul>
-  <li>Gestão educacional · Avaliação educacional · Análise de dados · Educação · Resolução de problemas · Habilidades analíticas · Competências interpessoais · Elaboração de documentos · Microsoft Power BI · Microsoft Power Query</li>
-</ul>
   </ul>
 
   </main>
