@@ -1,2 +1,0 @@
-# fernandahaiduk.github.io
-
