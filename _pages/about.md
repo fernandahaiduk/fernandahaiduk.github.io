@@ -2,9 +2,7 @@
 layout: about
 title: sobre
 permalink: /
-subtitle: <a href='#'>PPGEnFís</a> | . Porto Alegre, Brasil. Motto. Etc.
-
-# <a href='https://www.ufrgs.br/'>UFRGS</a>
+subtitle: <a href='https://www.ufrgs.br/ppgenfis/'>PPGEnFís</a> | <a href='https://www.ufrgs.br/'>UFRGS</a>
 
 profile:
   align: right
@@ -28,14 +26,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Sou Fernanda Haiduk, mestranda em Ensino de Física (PPGEnFis/UFRGS) e especialista educacional. Minha atuação integra pesquisa, produção de materiais didáticos e análise crítica de políticas e recursos curriculares, com interesse particular nas mediações entre Ciência, tecnologia e ensino — incluindo a Física de Partículas e a Big Science como campo de referência para discutir experimentação, linguagem e cultura científica.
+Sou Fernanda Haiduk, mestranda em Ensino de Física e especialista educacional. 
+
+Minha atuação integra pesquisa, produção de materiais didáticos e análise crítica de políticas e recursos curriculares, com interesse particular nas mediações entre Ciência, tecnologia e ensino — incluindo a Física de Partículas e a Big Science como campo de referência para discutir experimentação, linguagem e cultura científica.
 
 Aqui, reúno projetos, publicações e textos no **Tramas**, com notas de pesquisa e reflexões orientadas à leitura crítica de materiais e prescrições curriculares.
 
 
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+# Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+# Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+# Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
