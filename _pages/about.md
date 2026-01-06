@@ -2,13 +2,13 @@
 layout: about
 title: sobre
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.ufrgs.br/ppgenfis/'>PPGEnFís</a> | <a href='https://www.ufrgs.br/'>UFRGS</a>. Porto Alegre, Brasil. Motto. Etc.
 
 profile:
   align: right
  # image: prof_pic.jpg
-# image_circular: false # crops the image to make it circular
-  more_info: >
+ # image_circular: false # crops the image to make it circular
+ #  more_info: >
     <p>PPGEnFís · UFRGS</p>
     <p>Porto Alegre, Brasil</p>
 
