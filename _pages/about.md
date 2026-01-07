@@ -12,7 +12,7 @@ profile:
  #   <p>PPGEnFís · UFRGS</p>
  #  <p>Porto Alegre, Brasil</p>
 
-
+social: true # includes social icons at the bottom of the page 
 ---
 
 Sou Fernanda Haiduk, mestranda em Ensino de Física e especialista educacional. 
