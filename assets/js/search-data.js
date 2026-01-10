@@ -30,7 +30,21 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
+        },{id: "dropdown-acadêmicas",
+              title: "acadêmicas",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/publications/academic/";
+              },
+            },{id: "dropdown-editoriais",
+              title: "editoriais",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/publications/editorial/";
+              },
+            },{id: "nav-repositories",
           title: "repositories",
           description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
           section: "Navigation",
