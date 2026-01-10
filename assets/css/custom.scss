@@ -1,0 +1,8 @@
+ol.bibliography {
+  list-style: none;
+  padding-left: 0;
+}
+
+ol.bibliography > li::marker {
+  content: none;
+}
