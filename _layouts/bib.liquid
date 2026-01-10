@@ -375,6 +375,7 @@
       </div>
     {% endif %}
 
+{% comment %}
     {% if entry.bibtex_show %}
       <!-- Hidden bibtex block -->
       <div class="bibtex hidden">
@@ -383,6 +384,7 @@
         {% endhighlight %}
       </div>
     {% endif %}
+{% endcomment %}
 
     {% if entry.video and site.enable_video_embedding %}
       <!-- Hidden video block -->
