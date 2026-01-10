@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: publicações
 description: publicações científicas, editoriais e técnicas
-nav: true
+nav: false
 nav_order: 2
 ---
 
