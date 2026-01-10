@@ -5,4 +5,4 @@ permalink: /publications/academic/
 nav: false
 ---
 
-{% bibliography --file academic.bib %}
+{% bibliography --file academic %}
