@@ -11,8 +11,7 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Academic website of Fernanda Haiduk, Physics Education researcher.
 footer_text: >
-  footer_text: >
-  © Fernanda Haiduk. Built with Jekyll and hosted on GitHub Pages.
+  Built with Jekyll and hosted on GitHub Pages.
 keywords: physics education, science education, academic website # add your own keywords or leave empty
 lang: pt-BR # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ◌  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
