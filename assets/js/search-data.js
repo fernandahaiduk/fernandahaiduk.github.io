@@ -23,7 +23,21 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
+        },{id: "dropdown-acadêmicas",
+              title: "acadêmicas",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/publications/academic/";
+              },
+            },{id: "dropdown-editoriais",
+              title: "editoriais",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/publications/editorial/";
+              },
+            },{id: "nav-projects",
           title: "projects",
           description: "A growing collection of your cool projects.",
           section: "Navigation",
