@@ -430,9 +430,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-concepções-de-tecnologia-nos-materiais-do-pnld-2026",
+          title: 'Concepções de Tecnologia nos Materiais do PNLD 2026',
+          description: "Análise das concepções de tecnologia nos manuais do professor de Física do PNLD 2026",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
