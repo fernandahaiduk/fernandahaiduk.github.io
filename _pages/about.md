@@ -2,7 +2,7 @@
 layout: about
 title: sobre
 permalink: /
-subtitle: <a href='https://www.ufrgs.br/ppgenfis/'>PPGEnFís</a> | <a href='https://www.ufrgs.br/'>UFRGS</a> | 
+subtitle: <strong><a href='https://www.ufrgs.br/ppgenfis/'>PPGEnFís</a></strong> | <strong><a href='https://www.ufrgs.br/'>UFRGS</a></strong>
 
 social: true # includes social icons at the bottom of the page
 ---
