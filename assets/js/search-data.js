@@ -494,14 +494,14 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/https://www.linkedin.com/in/fernandahaiduk/", "_blank");
+          window.open("https://www.linkedin.com/in/fernandahaiduk", "_blank");
         },
       },{
         id: 'social-researchgate',
         title: 'ResearchGate',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.researchgate.net/profile/https://www.researchgate.net/profile/Fernanda-Haiduk?ev=hdr_xprf/", "_blank");
+          window.open("https://www.researchgate.net/profile/Fernanda-Haiduk/", "_blank");
         },
       },{
       id: 'light-theme',
