@@ -59,6 +59,17 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
+            window.location.href = "/blog/2026/2025-03-26-plotly/";
+          
+        },
+      },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
             window.location.href = "/blog/2026/2023-04-25-audios/";
           
         },
@@ -82,17 +93,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2026/2023-03-21-tables/";
-          
-        },
-      },{id: "post-a-post-with-plotly-js",
-        
-          title: "a post with plotly.js",
-        
-        description: "this is what included plotly.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/plotly/";
           
         },
       },{id: "post-a-post-with-image-galleries",
