@@ -59,17 +59,6 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/2025-03-26-plotly/";
-          
-        },
-      },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
             window.location.href = "/blog/2026/2023-04-25-audios/";
           
         },
