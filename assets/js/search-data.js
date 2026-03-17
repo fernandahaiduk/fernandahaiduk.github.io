@@ -51,18 +51,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-curiosidade-e-oncontro-com-o-ensino",
-        
-          title: "Curiosidade e oncontro com o ensino",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/post1/";
-          
-        },
-      },{id: "post-quando-a-física-deixou-de-ser-só-conteúdo",
+        },{id: "post-quando-a-física-deixou-de-ser-só-conteúdo",
         
           title: "Quando a Física deixou de ser só conteúdo",
         
@@ -71,6 +60,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/post2/";
+          
+        },
+      },{id: "post-curiosidade-e-oncontro-com-o-ensino",
+        
+          title: "Curiosidade e oncontro com o ensino",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/post1/";
           
         },
       },{id: "books-the-godfather",
