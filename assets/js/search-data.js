@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-incômodo-como-motor-o-que-não-fechava-no-ensino-de-física",
+        },{id: "post-ensino-de-física-como-campo-de-pesquisa",
+        
+          title: "Ensino de Física como campo de pesquisa",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/post4/";
+          
+        },
+      },{id: "post-incômodo-como-motor-o-que-não-fechava-no-ensino-de-física",
         
           title: "Incômodo como motor: o que não fechava no ensino de Física",
         
