@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-quando-a-física-deixou-de-ser-só-conteúdo",
+        },{id: "post-incômodo-como-motor-o-que-não-fechava-no-ensino-de-física",
+        
+          title: "Incômodo como motor: o que não fechava no ensino de Física",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/post3/";
+          
+        },
+      },{id: "post-quando-a-física-deixou-de-ser-só-conteúdo",
         
           title: "Quando a Física deixou de ser só conteúdo",
         
