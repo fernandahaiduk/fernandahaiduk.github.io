@@ -62,6 +62,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/post1/";
           
         },
+      },{id: "post-quando-a-física-deixou-de-ser-só-conteúdo",
+        
+          title: "Quando a Física deixou de ser só conteúdo",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/post2/";
+          
+        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
