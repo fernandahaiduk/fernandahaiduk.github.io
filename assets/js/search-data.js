@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-ensino-de-física-como-campo-de-pesquisa",
+        },{id: "post-entre-a-teoria-e-o-material-didático-por-que-olhar-para-os-livros",
+        
+          title: "Entre a teoria e o material didático: por que olhar para os livros...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/post5/";
+          
+        },
+      },{id: "post-ensino-de-física-como-campo-de-pesquisa",
         
           title: "Ensino de Física como campo de pesquisa",
         
