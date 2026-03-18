@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-entre-a-teoria-e-o-material-didático-por-que-olhar-para-os-livros",
+        },{id: "post-tecnologia-não-é-neutra-o-problema-de-tentar-defini-la",
+        
+          title: "Tecnologia não é neutra: o problema de tentar defini-la",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/post6/";
+          
+        },
+      },{id: "post-entre-a-teoria-e-o-material-didático-por-que-olhar-para-os-livros",
         
           title: "Entre a teoria e o material didático: por que olhar para os livros...",
         
